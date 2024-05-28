@@ -1,0 +1,124 @@
+/* Add base styles for the app */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+/* Light theme styles */
+.App.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark theme styles */
+.App.dark {
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+.tabs a {
+  margin: 0 10px;
+  color:crimson;
+}
+
+
+
+
+.form{
+  background-color:azure;
+    height:230px;
+    width:290px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:1px 1px 3px 2px aqua;
+    position: relative;
+    left:460px;
+    margin-top: 170px;
+}
+h2{
+  text-align: center;
+  font-family:Georgia;
+  color:indigo
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon {
+  margin-right: 10px;
+  color:aqua;
+}
+
+input {
+  flex: 1;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.button{
+  width: 200px;
+  padding: 4px;
+  box-align:center;
+  font-size:large;
+  font-family:Georgia;
+  background: linear-gradient(90deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,0.8) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 200px;
+  left:70px;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+  color:#000000;
+}
+
+.tabs a {
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+  
+}
+
+.add-order-button {
+  margin-top: 20px;
+  
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+ 
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.icon-button {
+  cursor: pointer;
+}
